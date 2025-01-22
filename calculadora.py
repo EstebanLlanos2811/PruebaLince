@@ -18,6 +18,11 @@ def division(num1, num2):
     ans = num1 / num2
     return ans
 
+# Funcion que la operacion modulo
+def modulo(num1, num2):
+    ans = num1 % num2
+    return ans
+
 # Funcion principal (Entradas, salidas, peticiones al usuario y llamado a las funciones)
 def main():
     print("Bienvenido a la calculadora de Lince")
@@ -29,6 +34,7 @@ def main():
     print("2. Resta")
     print("3. Multiplicación")
     print("4. División")
+    print("5. Módulo")
     operacion = int(input("Ingrese el número de la operación: "))
     if operacion == 1:
         ans = suma(num1, num2)
@@ -42,6 +48,9 @@ def main():
     elif operacion == 4:
         ans = division(num1, num2)
         print(f"El resultado de la división es: {ans}")
+    elif operacion == 5:
+        ans = modulo(num1, num2)
+        print(f"El resultado del módulo es: {ans}")
     else:
         print("Operación no válida")
 
