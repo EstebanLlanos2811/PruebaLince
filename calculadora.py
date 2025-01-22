@@ -1,3 +1,7 @@
+def suma(num1, num2):
+    ans = num1 + num2
+    return ans
+
 def main():
     print("Bienvenido a la calculadora de Lince")
     print("Por favor, ingrese dos números")
@@ -23,3 +27,5 @@ def main():
         print(f"El resultado de la división es: {ans}")
     else:
         print("Operación no válida")
+
+main()
