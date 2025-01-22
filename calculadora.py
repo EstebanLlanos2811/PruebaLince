@@ -1,19 +1,24 @@
+# Funcion que la operacion suma
 def suma(num1, num2):
     ans = num1 + num2
     return ans
 
+# Funcion que la operacion resta
 def resta(num1, num2):
     ans = num1 - num2
     return ans
 
+# Funcion que la operacion multiplicacion
 def multiplicacion(num1, num2):
     ans = num1 * num2
     return ans
 
+# Funcion que la operacion division
 def division(num1, num2):
     ans = num1 / num2
     return ans
 
+# Funcion principal (Entradas, salidas, peticiones al usuario y llamado a las funciones)
 def main():
     print("Bienvenido a la calculadora de Lince")
     print("Por favor, ingrese dos números")
