@@ -25,6 +25,13 @@ def modulo(num1, num2):
     ans = num1 % num2
     return ans
 
+# Funcion que verifica si dos numeros son iguales
+def sameNumber(num1, num2):
+    if num1 == num2:
+        return True
+    else:
+        return False
+
 # Funcion principal (Entradas, salidas, peticiones al usuario y llamado a las funciones)
 def main():
     print("Bienvenido a la calculadora de Lince")
