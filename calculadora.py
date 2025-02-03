@@ -1,3 +1,5 @@
+# Version 1.2 de la calculadora de Lince
+
 # Funcion que la operacion suma
 def suma(num1, num2):
     ans = num1 + num2
