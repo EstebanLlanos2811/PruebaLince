@@ -32,6 +32,7 @@ def sameNumber(num1, num2):
     else:
         return False
 
+# Funcion Division entera
 def divisionEntetra(num1, num2):
     ans = num1 // num2
     return ans
