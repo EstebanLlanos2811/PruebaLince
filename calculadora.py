@@ -25,6 +25,7 @@ def modulo(num1, num2):
     ans = num1 % num2
     return ans
 
+# Funcion que verifica si dos numeros son iguales
 def sameNumber(num1, num2):
     if num1 == num2:
         return True
